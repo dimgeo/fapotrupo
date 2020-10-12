@@ -18,7 +18,7 @@ tn =: 1{1&{
 NB. Probablity of true positives, false negatives, false positives and true negatives
 NB. Using Bayes Theorem
 
-NB. Propbability of positive tests (denominator in Bayes test ) P(pos) = tp * prev + fp*(1-prev)
+NB. Propbability of positive and negative tests (denominator in Bayes test )
 
 Ppos =: (( tp matrix) * prev )    +    ( (fp matrix) * (1 - prev))
 Pneg =: (( fn matrix ) * (prev)) + ( (tn matrix ) * (1-prev))
