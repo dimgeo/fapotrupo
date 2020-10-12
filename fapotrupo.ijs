@@ -1,14 +1,14 @@
-NB. Sensitivity and prevalence reported by WHO
+NB. Sensitivity and specificity reported by WHO
 NB. sens=: 0.95
 NB. spec=: 0.97
 
 NB. Prevalence vector from 0.01 to 0.02
 prev=: (1 + i. 20) % 100
 
-NB. truth matrix
+NB. truth matrix based on above specificity and sensitivity
 matrix=: 2 2 $ 0.95 0.03 0.05 0.97
 
-NB. matrix indices
+NB. matrix indices 
 
 tp =: 0{0&{
 fn =: 1{0&{
