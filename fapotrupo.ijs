@@ -2,7 +2,7 @@ NB. Sensitivity and specificity reported by WHO
 NB. sens=: 0.95
 NB. spec=: 0.97
 
-NB. Prevalence vector from 0.01 to 0.02
+NB. Prevalence vector from 0.01 to 0.2
 prev=: (1 + i. 20) % 100
 
 NB. truth matrix based on above specificity and sensitivity
