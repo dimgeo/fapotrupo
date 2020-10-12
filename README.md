@@ -7,25 +7,28 @@ This software is written in the J programming language. A development and runtim
 
 Please report bugs / errors to dg@biodys.com
 
-<pre/>
+
 Based on a sensitivity of 95% and a specificity of 97% as reported in the abovementioned WHO document, the following truth matrix is created. 
+<pre>
 ┌────┬────┐
 │0.95│0.03│
 ├────┼────┤
 │0.05│0.97│
 └────┴────┘
-
+</pre>
 Using the appropriate equalities to calculate the probability of false posiitives and false negatives for a prevalence up to 20%, the following tables are derived:
 
 Probablity of TRUE positives given a certain prevalence of the disease:
+
+<pre>
 ┌───────────────────────────────────────────────────┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
 │Disease prevalence in %                            │1 │2 │3 │4 │5 │6 │7 │8 │9 │10│11│12│13│14│15│16│17│18│19│20│
 ├───────────────────────────────────────────────────┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┤
 │Probablity of being ill while testing positive in %│17│28│38│45│50│55│59│63│66│68│71│73│74│76│78│79│80│81│82│83│
 └───────────────────────────────────────────────────┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┘
-
+</pre>
 Probablity of FALSE positives given a certain prevalence of the disease:
-
+<pre>
 ┌───────────────────────────────────────────────────────┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
 │Disease prevalence in %                                │1 │2 │3 │4 │5 │6 │7 │8 │9 │10│11│12│13│14│15│16│17│18│19│20│
 ├───────────────────────────────────────────────────────┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┤
