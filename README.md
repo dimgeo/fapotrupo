@@ -16,7 +16,7 @@ Based on a sensitivity of 95% and a specificity of 97% as reported in the abovem
 │0.05│0.97│
 └────┴────┘
 </pre>
-Using the appropriate equalities to calculate the probability of false posiitives and false negatives for a prevalence up to 20%, the following tables are derived:
+Using the appropriate equalities to calculate the probability of false positives and false negatives for a prevalence up to 20%, the following tables are derived:
 
 Probablity of TRUE positives given a certain prevalence of the disease:
 
