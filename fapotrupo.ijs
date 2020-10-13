@@ -6,6 +6,7 @@ NB. Prevalence vector from 0.01 to 0.2
 prev=: (1 + i. 20) % 100
 
 NB. truth matrix based on above specificity and sensitivity
+NB. matrx =: 2 2 $ sens (1-spec) (1-sens) spec
 matrix=: 2 2 $ 0.95 0.03 0.05 0.97
 
 NB. matrix indices 
