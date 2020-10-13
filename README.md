@@ -1,5 +1,5 @@
 # fapotrupo
-Fapotrupo is a short program to calculate true and false positives of RT-PCR tests used for COVID19 RNA detection. It uses the Bayes Theorem and the RT-PCR specificity and sensitivity parameters from the WHO https://apps.who.int/iris/rest/bitstreams/1302653/retrieve Because prevalence is location-dependent, a vector between 1% and 20% has been defined instead of an arbitrary value.
+Fapotrupo is a small program that calculates true and false positives of RT-PCR tests used for COVID19 RNA detection. It uses the Bayes Theorem and the RT-PCR specificity and sensitivity parameters from the WHO https://apps.who.int/iris/rest/bitstreams/1302653/retrieve Because prevalence is location-dependent, a vector between 1% and 20% has been defined instead of an arbitrary value.
 
 An explanation of how the Bayes Theorem is used, is available from Numberphile on YouTube, featuring UC Berkeley professor Lisa Goldberg. https://www.youtube.com/watch?v=M8xlOm2wPAA 
 
