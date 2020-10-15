@@ -12,8 +12,8 @@ matrix=: 2 2 $ 0.95 0.03 0.05 0.97
 NB. matrix indices 
 
 tp =: 0{0&{
-fn =: 1{0&{
-fp =: 0{1&{
+fp =: 1{0&{
+fn =: 0{1&{
 tn =: 1{1&{
 
 NB. Probablity of true positives, false negatives, false positives and true negatives
