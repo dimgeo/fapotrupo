@@ -21,11 +21,13 @@ Using the appropriate equalities to calculate the probability of false positives
 Probablity of TRUE positives given a certain prevalence of the disease:
 
 <pre>
+
 ┌───────────────────────────────────────────────────┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
 │Disease prevalence in %                            │1 │2 │3 │4 │5 │6 │7 │8 │9 │10│11│12│13│14│15│16│17│18│19│20│
 ├───────────────────────────────────────────────────┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┤
 │Probablity of being ill while testing positive in %│17│28│38│45│50│55│59│63│66│68│71│73│74│76│78│79│80│81│82│83│
-└───────────────────────────────────────────────────┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┘
+└───────────────────────────────────────────────────┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴
+   
 </pre>
 Probablity of FALSE positives given a certain prevalence of the disease. (Note this is the inverted probability with a rounding artefact)
 <pre>
