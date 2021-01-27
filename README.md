@@ -5,8 +5,6 @@ An explanation of how the Bayes Theorem is used, is available from Numberphile o
 
 This software is written in the J programming language. A development and runtime environment can be downloaded from http://www.jsoftware.com 
 
-Please report bugs / errors to dg@biodys.com
-
 
 Based on a sensitivity of 95% and a specificity of 97% as reported in the abovementioned WHO document, the following truth matrix is created. 
 <pre>
